@@ -9,9 +9,11 @@ const nameInput = prompt('insert your name');
 const surnameInput = prompt('insert your surname');
 const colorInput = prompt('insert your favourite color');
 
-elementName.innerHTML = nameInput + surnameInput +colorInput + number; 
+const password = nameInput + surnameInput +colorInput + number;
 
-console.log(elementName);
+elementName.innerHTML = password; 
+
+console.log(password);
  
 
 
